@@ -11,7 +11,7 @@ const fs = require('fs');
 //     console.log("Written to the file");
 // })
 
-b= fs.writeFileSync("file2.txt", "this is data2")
+b= fs.writeFileSync("file2.txt", "this is data")
 console.log(b);
 
 console.log("Finished reading file");
